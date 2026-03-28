@@ -47,17 +47,9 @@ FEDORA_PACKAGES=(
     # nodejs
     # nodejs-npm
     # pnpm
-    sway
-    nwg-panel
-    swaylock
-    nwg-dock
-    waybar
-    rofi
-    kanshi
-    thunar
-    foot
-    dunst
-    Thunar
+    ghossty
+    kitty
+    neovim
 )
 
 # Install all Fedora packages (bulk - safe from COPR injection)

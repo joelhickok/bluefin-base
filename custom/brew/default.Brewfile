@@ -21,5 +21,5 @@ brew "zoxide"     # Smarter cd command
 brew "htop"       # Interactive process viewer
 brew "tmux"       # Terminal multiplexer
 
-brew gpsd
-brew pnpm
+brew "gpsd"
+brew "pnpm"
