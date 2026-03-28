@@ -43,6 +43,27 @@ echo "::endgroup::"
 
 echo "::group:: Install Packages"
 
+FEDORA_PACKAGES=(
+    # nodejs
+    # nodejs-npm
+    # pnpm
+    sway
+    nwg-panel
+    swaylock
+    nwg-dock
+    waybar
+    rofi
+    kanshi
+    thunar
+    foot
+    dunst
+    Thunar
+)
+
+# Install all Fedora packages (bulk - safe from COPR injection)
+echo "Installing ${#FEDORA_PACKAGES[@]} packages from Fedora repos..."
+dnf -y install "${FEDORA_PACKAGES[@]}" --skip-broken --skip-unavailable
+
 # Install packages using dnf5
 # Example: dnf5 install -y tmux
 
