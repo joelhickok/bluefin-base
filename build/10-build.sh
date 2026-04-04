@@ -44,9 +44,9 @@ echo "::endgroup::"
 echo "::group:: Install Packages"
 
 FEDORA_PACKAGES=(
-    # nodejs
-    # nodejs-npm
-    # pnpm
+    nodejs
+    nodejs-npm
+    pnpm
     ghossty
     kitty
     neovim
